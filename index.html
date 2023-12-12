@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqif's Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+        <img src="images/AHR.png" class="logo">
+        <ul>
+            <li><a href="index.html"><img src="images/home.png"></a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="favourites.html">FAVOURITES</a></li>
+            <li><a href="friends.html">FRIENDS</a></li>
+            <li><a href="family.html">FAMILY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        </nav>
+        
+         <div class="detel">
+            <h1>Hi!, I'm  Aqif<span>Haikal</span></h1>
+            <p>Student</p>
+        </div>
+        <div class="images">
+            <img src="images/shape.png" class="shape">
+            <img src="images/background.png" class="boy">
+         </div>
+    
+            <div class="btn-container">
+                <button class="btn-color">
+                    <a href="assets/resume_Aqiff.pdf" target="_blank"><p><font color="wheat"><p style="font-size:16px;">Download Resume</font></p></a>
+                        </button>
+            </div>
+             <div id="socials-container">
+              <a href="https://instagram.com/aqiqiqiff?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+                  <img src="images/instagram2.png"></a>
+              
+              <a href="https://facebook.com//aqif.haikal.902" target="_blank">
+                  <img src="images/facebook2.png"></a>
+              <a href="mailto:AqfHklRzk17@gmail.com" target="_blank"><img src="images/email2.png"></a>
+              
+    </div>
+    <div id="about">
+    <div class="container">
+        <div class="row">
+         <div class="about-col-1">
+            <img src="images/aqif.png">
+        </div>
+         <div class="about-col-2">
+             <br>
+              <br>
+               <br>
+             <br>
+             <h1 class="sub-title"><font color="wheat">About</font> Me</h1>
+             <p>My full name is Aqif Haikal Bin Razak. People usually called me Aqif. Im from Kangar, Perlis, Malaysia.
+             <br>Im happy to live with wonderful people around me!</p>
+             
+             <div class="tab-titles">
+             <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+             <p class="tab-links" onclick="opentab('experience')">Experience</p>
+             <p class="tab-links" onclick="opentab('education')">Education</p>
+             </div>
+             <div class="tab-contents active-tab" id="skills">
+             <ul>
+                 <li><span><h2>My Skills</h2></span>
+                 <br> Designing Web App Interfaces<br>
+                 <br>Smartphone repair<br>
+                 <br> Proficient in using Adobe Software<br>
+                 
+                 </ul>
+             </div>
+             <div class="tab-contents" id="experience">
+             <ul>
+                 <li><span><h2>My Experience</h2></span>
+                 <br>Being a commander in Kadet Polis and sucessfully got appreciation certificate<br>
+                     <br>Joined national level camp <abbr title="Malaysian Future Leader School"><a href="https://www.sriucsi.edu.my/sh/malaysian-future-leaders-school-mfls/" target="_blank"><font color="wheat">"MFLS"</font></a></abbr> on 2019<br>
+                 <br>Part- time job at Mac Donald, Kangar, Perlis<br>
+                 
+                 </ul>
+             </div>
+             <div class="tab-contents" id="education">
+             <ul>
+                 <li><span><h2>My Education</h2></span>
+                 <br> Primary school at SK Titi To' Bandar<br>
+                <br>Secondary school at SMK Dato' Sheikh Ahmad <abbr title="International Baccalaureate"><a href="https://www.ibo.org/programmes/" target="_blank"><font color="wheat">"IB"</font></a></abbr>World School<br></li>
+                 <br>Diploma at UiTM Merbok, Kedah<br>
+                 
+                 <video width="500" height="450" controls>
+        <source src="videos/vid3.MOV" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+                 </video>
+                 
+                 </ul>
+             </div>
+            </div>
+        </div>
+     </div>
+    </div>
+    
+    <script>
+    
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+        
+    function opentab(tabname){
+        
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+    </script>
+    
+    </div>
+</body>
+</html>  
